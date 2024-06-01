@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/image6.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Basic Linux Commands with Hands-on Demonstration Part 1",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Created a YouTube video which teaches you basics of linux terminal commands such as ls, pwd, touch, rm, mkdir, cd",
+    url: "https://youtu.be/x01mD24HjX0",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Basic Linux Commands with Hands-on Demonstration Part 2",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Created another YouTube video which teaches you basics of linux terminal commands such as wc and sort",
+    url: "https://youtu.be/cJeFbCxWm24",
   },
   {
-    title: "My Resume Site",
+    title: "Introduction to CyberSecurity",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created a YouTube video discussing the basics of what is Cybersecurity and its importance.",
+    url: "https://youtu.be/8mMrQsx52Wg",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "7 Layers of Network Communication",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Created a YouTube video discussing basics of OSI Model.",
+    url: "https://youtu.be/btkR8EXE1jA",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Achievements</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
